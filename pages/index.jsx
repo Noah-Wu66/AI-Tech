@@ -169,6 +169,63 @@ export default function Component() {
     })
   }
 
+  const renderUserOptions = () => {
+    switch(userType) {
+      case 'normal1':
+        return (
+          <>
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/ABVfdd5qBo5dGUxolK7c4ZKSnue?from=from_copylink" text="管理用户信息" />
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/QkJrd4ztzobsF4xN4XRcnpHrnbf?from=from_copylink" text="管理每月排班" />
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/CSwwdksjgohxYSxOA4BcGEYtnwh?from=from_copylink" text="管理质检积分" />
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/WkswdcWaeoVDPhx3eDwcoe8Unxg?from=from_copylink" text="管理每月绩效" />
+            <ButtonOption href="#" text="返回身份选择" onClick={handleBackToUserTypeSelection} />
+          </>
+        );
+      case 'normal2':
+        return (
+          <>
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/ABVfdd5qBo5dGUxolK7c4ZKSnue?from=from_copylink" text="管理用户信息" />
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/QkJrd4ztzobsF4xN4XRcnpHrnbf?from=from_copylink" text="管理每月排班" />
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/CSwwdksjgohxYSxOA4BcGEYtnwh?from=from_copylink" text="管理质检积分" />
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/WkswdcWaeoVDPhx3eDwcoe8Unxg?from=from_copylink" text="管理每月绩效" />
+            <ButtonOption href="#" text="返回身份选择" onClick={handleBackToUserTypeSelection} />
+          </>
+        );
+      case 'normal3':
+        return (
+          <>
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/ABVfdd5qBo5dGUxolK7c4ZKSnue?from=from_copylink" text="管理用户信息" />
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/QkJrd4ztzobsF4xN4XRcnpHrnbf?from=from_copylink" text="管理每月排班" />
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/CSwwdksjgohxYSxOA4BcGEYtnwh?from=from_copylink" text="管理质检积分" />
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/WkswdcWaeoVDPhx3eDwcoe8Unxg?from=from_copylink" text="管理每月绩效" />
+            <ButtonOption href="#" text="返回身份选择" onClick={handleBackToUserTypeSelection} />
+          </>
+        );
+      case 'normal4':
+        return (
+          <>
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/ABVfdd5qBo5dGUxolK7c4ZKSnue?from=from_copylink" text="管理用户信息" />
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/QkJrd4ztzobsF4xN4XRcnpHrnbf?from=from_copylink" text="管理每月排班" />
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/CSwwdksjgohxYSxOA4BcGEYtnwh?from=from_copylink" text="管理质检积分" />
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/WkswdcWaeoVDPhx3eDwcoe8Unxg?from=from_copylink" text="管理每月绩效" />
+            <ButtonOption href="#" text="返回身份选择" onClick={handleBackToUserTypeSelection} />
+          </>
+        );
+      case 'normal5':
+        return (
+          <>
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/ABVfdd5qBo5dGUxolK7c4ZKSnue?from=from_copylink" text="管理用户信息" />
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/QkJrd4ztzobsF4xN4XRcnpHrnbf?from=from_copylink" text="管理每月排班" />
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/CSwwdksjgohxYSxOA4BcGEYtnwh?from=from_copylink" text="管理质检积分" />
+            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/WkswdcWaeoVDPhx3eDwcoe8Unxg?from=from_copylink" text="管理每月绩效" />
+            <ButtonOption href="#" text="返回身份选择" onClick={handleBackToUserTypeSelection} />
+          </>
+        );
+      default:
+        return null;
+    }
+  }
+
   return (
     <ErrorBoundary FallbackComponent={ErrorFallback}>
       <div className="relative flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300 text-blue-800 overflow-hidden">
@@ -218,8 +275,11 @@ export default function Component() {
                   <motion.div
                     className="flex flex-col items-center space-y-4"
                   >
-                    <ButtonOption href="#" text="普通用户" onClick={handleUserTypeSelect('normal')} />
-                    <ButtonOption href="#" text="管理用户" onClick={handleUserTypeSelect('admin')} />
+                    <ButtonOption href="#" text="普通用户1" onClick={handleUserTypeSelect('normal1')} />
+                    <ButtonOption href="#" text="普通用户2" onClick={handleUserTypeSelect('normal2')} />
+                    <ButtonOption href="#" text="普通用户3" onClick={handleUserTypeSelect('normal3')} />
+                    <ButtonOption href="#" text="普通用户4" onClick={handleUserTypeSelect('normal4')} />
+                    <ButtonOption href="#" text="普通用户5" onClick={handleUserTypeSelect('normal5')} />
                   </motion.div>
                 )}
               </motion.div>
@@ -241,7 +301,7 @@ export default function Component() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
               >
-                我是...<br />{userType === 'normal' ? '普通用户' : '管理用户'}
+                我是...<br />普通用户{userType.slice(-1)}
               </motion.h1>
 
               <motion.p
@@ -259,21 +319,7 @@ export default function Component() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 }}
               >
-                {userType === 'normal' ? (
-                  <>
-                    <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/Nqm2dRfEwoo9rgxB0GYckYRjn1e?from=from_copylink" text="维护用户信息" />
-                    <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/JZmedJXMhoBRF7xAaYvcgQ8bnEU?from=from_copylink" text="查询每月排班" />
-                    <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/BFdKdJS8NoIreTxPRbAcYnvhnVc?from=from_copylink" text="查询质检积分" />
-                  </>
-                ) : (
-                  <>
-                    <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/ABVfdd5qBo5dGUxolK7c4ZKSnue?from=from_copylink" text="管理用户信息" />
-                    <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/QkJrd4ztzobsF4xN4XRcnpHrnbf?from=from_copylink" text="管理每月排班" />
-                    <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/CSwwdksjgohxYSxOA4BcGEYtnwh?from=from_copylink" text="管理质检积分" />
-                    <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/WkswdcWaeoVDPhx3eDwcoe8Unxg?from=from_copylink" text="管理每月绩效" />
-                  </>
-                )}
-                <ButtonOption href="#" text="返回身份选择" onClick={handleBackToUserTypeSelection} />
+                {renderUserOptions()}
               </motion.div>
             </motion.div>
           )}
