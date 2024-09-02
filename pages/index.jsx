@@ -72,6 +72,14 @@ export default function Component() {
   const [userType, setUserType] = useState(null)
   const [direction, setDirection] = useState(0)
 
+  const categoryNames = {
+    normal1: "文字对话类",
+    normal2: "创意图片类",
+    normal3: "视频动画类",
+    normal4: "音乐谱曲类",
+    normal5: "数字角色类"
+  }
+
   useEffect(() => {
     const savedUserType = localStorage.getItem('userType')
     if (savedUserType) {
@@ -301,7 +309,7 @@ export default function Component() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
               >
-                我是...<br />普通用户{userType.slice(-1)}
+                {categoryNames[userType]}
               </motion.h1>
 
               <motion.p
@@ -310,7 +318,7 @@ export default function Component() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
               >
-                我想...
+                选择...
               </motion.p>
 
               <motion.div
