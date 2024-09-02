@@ -174,51 +174,51 @@ export default function Component() {
       case 'normal1':
         return (
           <>
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/ABVfdd5qBo5dGUxolK7c4ZKSnue?from=from_copylink" text="管理用户信息" />
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/QkJrd4ztzobsF4xN4XRcnpHrnbf?from=from_copylink" text="管理每月排班" />
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/CSwwdksjgohxYSxOA4BcGEYtnwh?from=from_copylink" text="管理质检积分" />
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/WkswdcWaeoVDPhx3eDwcoe8Unxg?from=from_copylink" text="管理每月绩效" />
-            <ButtonOption href="#" text="返回身份选择" onClick={handleBackToUserTypeSelection} />
+            <ButtonOption href="https://kimi.moonshot.cn/" text="Kimi AI" />
+            <ButtonOption href="https://tongyi.aliyun.com/" text="通义千问" />
+            <ButtonOption href="https://www.chatglm.cn/" text="智谱清言" />
+            <ButtonOption href="https://chatgpt.com/" text="ChatGPT" />
+            <ButtonOption href="#" text="返回类型选择" onClick={handleBackToUserTypeSelection} />
           </>
         );
       case 'normal2':
         return (
           <>
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/ABVfdd5qBo5dGUxolK7c4ZKSnue?from=from_copylink" text="管理用户信息" />
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/QkJrd4ztzobsF4xN4XRcnpHrnbf?from=from_copylink" text="管理每月排班" />
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/CSwwdksjgohxYSxOA4BcGEYtnwh?from=from_copylink" text="管理质检积分" />
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/WkswdcWaeoVDPhx3eDwcoe8Unxg?from=from_copylink" text="管理每月绩效" />
-            <ButtonOption href="#" text="返回身份选择" onClick={handleBackToUserTypeSelection} />
+            <ButtonOption href="https://tost.ai/" text="Flux-1" />
+            <ButtonOption href="https://klingai.kuaishou.com/text-to-image/new" text="可灵 AI" />
+            <ButtonOption href="https://jimeng.jianying.com/ai-tool/image/generate" text="即梦 AI" />
+            <ButtonOption href="https://chatgpt.com/" text="Dall-E 3" />
+            <ButtonOption href="#" text="返回类型选择" onClick={handleBackToUserTypeSelection} />
           </>
         );
       case 'normal3':
         return (
           <>
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/ABVfdd5qBo5dGUxolK7c4ZKSnue?from=from_copylink" text="管理用户信息" />
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/QkJrd4ztzobsF4xN4XRcnpHrnbf?from=from_copylink" text="管理每月排班" />
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/CSwwdksjgohxYSxOA4BcGEYtnwh?from=from_copylink" text="管理质检积分" />
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/WkswdcWaeoVDPhx3eDwcoe8Unxg?from=from_copylink" text="管理每月绩效" />
-            <ButtonOption href="#" text="返回身份选择" onClick={handleBackToUserTypeSelection} />
+            <ButtonOption href="https://klingai.kuaishou.com/text-to-video/new" text="可灵 AI" />
+            <ButtonOption href="https://jimeng.jianying.com/ai-tool/video/generate" text="即梦 AI" />
+            <ButtonOption href="https://chatglm.cn/video?lang=zh" text="智谱清影" />
+            <ButtonOption href="https://hailuoai.com/video" text="海螺视频" />
+            <ButtonOption href="https://app.runwayml.com/" text="Runway" />
+            <ButtonOption href="#" text="返回类型选择" onClick={handleBackToUserTypeSelection} />
           </>
         );
       case 'normal4':
         return (
           <>
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/ABVfdd5qBo5dGUxolK7c4ZKSnue?from=from_copylink" text="管理用户信息" />
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/QkJrd4ztzobsF4xN4XRcnpHrnbf?from=from_copylink" text="管理每月排班" />
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/CSwwdksjgohxYSxOA4BcGEYtnwh?from=from_copylink" text="管理质检积分" />
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/WkswdcWaeoVDPhx3eDwcoe8Unxg?from=from_copylink" text="管理每月绩效" />
-            <ButtonOption href="#" text="返回身份选择" onClick={handleBackToUserTypeSelection} />
+            <ButtonOption href="https://hailuoai.com/music" text="海螺音乐" />
+            <ButtonOption href="https://www.tiangong.cn/music" text="天工 AI" />
+            <ButtonOption href="https://suno.com/" text="Suno AI" />
+            <ButtonOption href="https://stableaudio.com/generate" text="Stable Audio" />
+            <ButtonOption href="#" text="返回类型选择" onClick={handleBackToUserTypeSelection} />
           </>
         );
       case 'normal5':
         return (
           <>
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/ABVfdd5qBo5dGUxolK7c4ZKSnue?from=from_copylink" text="管理用户信息" />
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/QkJrd4ztzobsF4xN4XRcnpHrnbf?from=from_copylink" text="管理每月排班" />
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/CSwwdksjgohxYSxOA4BcGEYtnwh?from=from_copylink" text="管理质检积分" />
-            <ButtonOption href="https://sw8do1frcg1.feishu.cn/docx/WkswdcWaeoVDPhx3eDwcoe8Unxg?from=from_copylink" text="管理每月绩效" />
-            <ButtonOption href="#" text="返回身份选择" onClick={handleBackToUserTypeSelection} />
+            <ButtonOption href="https://hifly.cc/" text="飞影数字人" />
+            <ButtonOption href="https://fish.audio/zh-CN/" text="Fish Audio" />
+            <ButtonOption href="https://app.heygen.com/home" text="HeyGen" />
+            <ButtonOption href="#" text="返回类型选择" onClick={handleBackToUserTypeSelection} />
           </>
         );
       default:
@@ -252,7 +252,7 @@ export default function Component() {
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5, ease: "easeOut" }}
                 >
-                  欢迎使用<br />编辑组业务工作台
+                  欢迎使用<br />AI教育学习平台
                 </motion.h1>
               </motion.div>
 
@@ -265,7 +265,7 @@ export default function Component() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, ease: "easeInOut" }}
                   >
-                    我是...
+                    类型...
                   </motion.p>
                 )}
               </motion.div>
@@ -275,11 +275,11 @@ export default function Component() {
                   <motion.div
                     className="flex flex-col items-center space-y-4"
                   >
-                    <ButtonOption href="#" text="普通用户1" onClick={handleUserTypeSelect('normal1')} />
-                    <ButtonOption href="#" text="普通用户2" onClick={handleUserTypeSelect('normal2')} />
-                    <ButtonOption href="#" text="普通用户3" onClick={handleUserTypeSelect('normal3')} />
-                    <ButtonOption href="#" text="普通用户4" onClick={handleUserTypeSelect('normal4')} />
-                    <ButtonOption href="#" text="普通用户5" onClick={handleUserTypeSelect('normal5')} />
+                    <ButtonOption href="#" text="文字对话" onClick={handleUserTypeSelect('normal1')} />
+                    <ButtonOption href="#" text="创意图片" onClick={handleUserTypeSelect('normal2')} />
+                    <ButtonOption href="#" text="视频动画" onClick={handleUserTypeSelect('normal3')} />
+                    <ButtonOption href="#" text="音乐谱曲" onClick={handleUserTypeSelect('normal4')} />
+                    <ButtonOption href="#" text="数字角色" onClick={handleUserTypeSelect('normal5')} />
                   </motion.div>
                 )}
               </motion.div>
