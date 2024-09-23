@@ -182,6 +182,7 @@ export default function Component() {
       case 'normal1':
         return (
           <>
+            <ButtonOption href="https://so.360.com/" text="360AI搜索" />
             <ButtonOption href="https://kimi.moonshot.cn/" text="Kimi AI" />
             <ButtonOption href="https://tongyi.aliyun.com/" text="通义千问" />
             <ButtonOption href="https://www.chatglm.cn/" text="智谱清言" />
