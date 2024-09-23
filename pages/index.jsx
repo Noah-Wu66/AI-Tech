@@ -186,7 +186,7 @@ export default function Component() {
             <ButtonOption href="https://kimi.moonshot.cn/" text="Kimi AI" />
             <ButtonOption href="https://tongyi.aliyun.com/" text="通义千问" />
             <ButtonOption href="https://www.chatglm.cn/" text="智谱清言" />
-            <ButtonOption href="https://chatgpt.com/" text="ChatGPT" />
+            <ButtonOption href="https://chat.cpec.cc/ text="Lobe Chat" />
             <ButtonOption href="#" text="返回类型选择" onClick={handleBackToUserTypeSelection} />
           </>
         );
