@@ -192,7 +192,7 @@ export default function Component() {
       case 'normal2':
         return (
           <>
-            <ButtonOption href="https://tost.ai/" text="Flux-1" />
+            <ButtonOption href="https://www.freepik.com/" text="Flux-1" />
             <ButtonOption href="https://klingai.kuaishou.com/text-to-image/new" text="可灵 AI" />
             <ButtonOption href="https://jimeng.jianying.com/ai-tool/image/generate" text="即梦 AI" />
             <ButtonOption href="https://chatgpt.com/" text="Dall-E 3" />
